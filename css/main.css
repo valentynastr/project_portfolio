@@ -99,4 +99,6 @@ a:link {
 a:hover [class*="zocial-"]:before {
   color: #3d85c6;
 }
-
+#social{
+    text-align:center;
+}
