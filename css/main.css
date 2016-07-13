@@ -24,10 +24,10 @@
 
 @media screen and (min-width: 800px) {
 .container {
-        display: flex;
-        flex-wrap:wrap;
-      /* -webkit-flex-flow: row wrap;
-       flex-flow: row wrap; */
+        display: -webkit-flex;
+		display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
 	   
     }
 }
@@ -36,7 +36,9 @@
     display: flex;
 }
 
-.col-4a, .col-4b, .col-4c {
+.col-4a,
+.col-4b, 
+.col-4c {
     width: 100%;
     text-align: center;
     margin-left: auto;
@@ -70,17 +72,18 @@
 }
 
 h1 {
-    color: #1E90FF;
+    color: #1e90ff;
     display: block;
 }
 
-h2,h3 {
-    color: #1E90FF;
+h2,
+h3 {
+    color: #1e90ff;
     text-align: center;
 }
 
-p{
-	color:#1E90FF;
+p {
+	color:#1e90ff;
 }
   
   [Class*="zocial-"]:before {
@@ -93,12 +96,13 @@ p{
       }
 
 a:link {
-    color: #1E90FF ;
+    color: #1e90ff;
 }
 
 a:hover [class*="zocial-"]:before {
   color: #3d85c6;
 }
+
 #social{
     text-align:center;
 }
