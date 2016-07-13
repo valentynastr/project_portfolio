@@ -1,3 +1,6 @@
+/*col-6,col-4a, col-4,grid,container -from Grid system lessons     */
+/*images was optimized  with Grunt  */
+
 *  {
     font-family: 'lato', sans-serif;
     font-weight: 200;  
@@ -85,7 +88,9 @@ h3 {
 p {
 	color:#1e90ff;
 }
-  
+ 
+/* From responsive blog project    */
+
   [Class*="zocial-"]:before {
       display: inline-block;
       font-family: 'zocial', sans-serif;
