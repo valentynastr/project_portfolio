@@ -1,4 +1,4 @@
-## **Project_Portfolio**      Created by Valentyna Strelchul
+## **Project_Portfolio**      Created by Valentyna Strelchuk
 ### Provided access to latest articles of Strelchuk Sergii
 ### How to run a project
 - go to https://github.com/valentynastr/project_portfolio.git
